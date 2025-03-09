@@ -18,4 +18,6 @@
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
   rars = pkgs.callPackage ./pkgs/rars { };
+
+    vivado-2020_1 = pkgs.callPackage ./pkgs/vivado/vivado-2020_1.nix { };
 }
