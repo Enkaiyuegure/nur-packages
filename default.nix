@@ -19,5 +19,7 @@
   # ...
   rars = pkgs.callPackage ./pkgs/rars { };
 
-    vivado-2020_1 = pkgs.callPackage ./pkgs/vivado/vivado-2020_1.nix { };
+  vivado-2020_1 = pkgs.callPackage ./pkgs/vivado/vivado-2020_1.nix { };
+
+  xivlauncher = pkgs.callPackage ./pkgs/xivlauncher { };
 }

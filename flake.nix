@@ -22,6 +22,7 @@
           pkgs = import nixpkgs {
             inherit system;
             overlays = builtins.attrValues (import ./overlays);
+            config.allowUnfree = true;
           };
         }
       );
