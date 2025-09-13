@@ -102,7 +102,7 @@ buildDotnetModule rec {
   desktopItems = [
     (makeDesktopItem {
       name = "xivlauncher";
-      exec = "XIVLauncher.Core";
+      exec = "gamemoderun XIVLauncher.Core";
       icon = "xivlauncher";
       desktopName = "XIVLauncher";
       comment = meta.description;
